@@ -1,0 +1,42 @@
+
+.team-container {
+  padding: 64px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.team-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.team-member {
+  width: 18%; /* Fits 5 across in a row */
+  min-width: 140px;
+}
+
+.team-member img {
+  width: 100%;
+  max-width: 120px;
+  border-radius: 50%;
+  transition: opacity 0.3s;
+}
+
+.team-member img:hover {
+  opacity: 0.7;
+}
+
+.team-member h3 {
+  margin: 10px 0 5px;
+  font-size: 1.1em;
+}
+
+.team-member p {
+  margin: 0;
+  font-style: italic;
+  color: #555;
+  font-size: 0.9em;
+}

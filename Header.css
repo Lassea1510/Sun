@@ -1,0 +1,37 @@
+/* Header styles */
+.header {
+  position: relative;
+  height: 100vh;
+  filter: grayscale(50%);
+}
+
+/* Positioning the header items */
+.header-bottom-left,
+.header-bottom-right,
+.header-middle {
+  position: absolute;
+}
+
+.header-bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.header-bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.header-middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tag {
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  display: inline-block;
+  font-weight: bold;
+}
